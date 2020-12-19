@@ -4,9 +4,7 @@ import PropTypes from 'prop-types';
 
 import s from './FeedbackOptions.module.css';
 
-export default function FeedbackOptions(props) {
-  const { options, onLeaveFeedback } = props;
-
+export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <div>
       <h1>Please leave feedback</h1>
